@@ -1,0 +1,24 @@
+.table {
+  margin: 100px auto 20px;
+  width: 600px;
+  border-collapse: collapse;
+  /* margin-top: 20px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #e1e4e8;
+  background-color: #c15a01;
+  font-weight: bold;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #fff6ee;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fde4ce;
+}
